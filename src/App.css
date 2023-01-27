@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#root {
+  position: relative;
+  height: 100vh;
+}
+
+.app-controls {
+  z-index: 10;
+  margin: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+}
+
+label {
+  font: 300 1rem Roboto, helvetica, sans-serif;
+  color: #212121; /* Grey 900 */
+  display: block;
+  padding: 2px;
+}
+
+p {
+  font: 300 1rem Roboto, helvetica, sans-serif;
+  color: #212121; /* Grey 900 */
+}
